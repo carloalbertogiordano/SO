@@ -1,0 +1,52 @@
+/*
+ ============================================================================
+ Name        : ComeCreareUnProcesso.c
+ Author      : Zindrè
+ Version     :
+ Copyright   :
+ Description : Scrivere un programma C che prende sulla linea di comando un numero arbitrario
+ di path. Per ogni path il main dovrà creare un sotto processo che esegue il comando /bin/ls sulla apth indicata
+ il processo padre dovrà attendere la terminazione di tutti i fili prima
+ di stampare il numero totale dei processi eseguiti con successo (exit code = 0) ed uscire
+
+ A scelta del candidato il processo padre potrà contare anche il numero totale di file (parole) restituite da ciascun figlio
+ su stdout attraverso una pipe dedicata
+  ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <ourhdr.h>
+
+int main(int argc, char* argv[])
+{
+	int i, pid;
+	for ( i = 1; i<argc; i++)
+	{
+		;
+		if((pid = fork())< 0)
+			err_sys("Fork Failed\n");
+		else if (pid == 0)
+		{
+			printf("Figlio PID=%d\n",getpid());
+			char *newargv[] = {"ls",argv[i],NULL};
+			if(execve("/bin/ls",newargv,NULL) < 0)
+				exit(1);
+			//execle("/usr/bin/ls","ls","-l","/home/zindre/Desktop",NULL,NULL);
+		}
+	}
+
+	for( i = 1; i< argc;i++)
+		{
+			if((pid=wait(NULL))<0)
+				err_sys("Waiting for child processes termination %d\n",i);
+			else
+				printf("Process %d termineted\n",pid);
+		}
+
+	printf("All Child Termineted\n");
+
+	return EXIT_SUCCESS;
+}
+
+

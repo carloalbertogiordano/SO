@@ -1,0 +1,19 @@
+17:08:31 **** Build of configuration Debug for project ForkExample ****
+make all 
+Building file: ../src/ForkExample.c
+Invoking: GCC C Compiler
+gcc -I/usr/local/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ForkExample.d" -MT"src/ForkExample.o" -o "src/ForkExample.o" "../src/ForkExample.c"
+../src/ForkExample.c: In function ‘main’:
+../src/ForkExample.c:56:12: warning: implicit declaration of function ‘wait’ [-Wimplicit-function-declaration]
+   56 |    if((pid=wait(NULL))<0)
+      |            ^~~~
+Finished building: ../src/ForkExample.c
+ 
+Building target: ForkExample
+Invoking: GCC C Linker
+gcc -L/usr/local/lib -o "ForkExample" ./src/ForkExample.o   -lso2016 -lm
+Finished building target: ForkExample
+ 
+
+17:08:31 Build Finished. 0 errors, 1 warnings. (took 417ms)
+

@@ -1,0 +1,6 @@
+10:28:36 **** Incremental Build of configuration Debug for project Bachmarking ****
+make all 
+make: Nothing to be done for 'all'.
+
+10:28:36 Build Finished. 0 errors, 0 warnings. (took 222ms)
+

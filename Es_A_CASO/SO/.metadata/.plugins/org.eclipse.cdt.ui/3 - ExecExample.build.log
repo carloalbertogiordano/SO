@@ -1,0 +1,19 @@
+13:53:03 **** Incremental Build of configuration Debug for project 3 - ExecExample ****
+make all 
+Building file: ../src/ExecExample.c
+Invoking: GCC C Compiler
+gcc -I/usr/local/include -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/ExecExample.d" -MT"src/ExecExample.o" -o "src/ExecExample.o" "../src/ExecExample.c"
+../src/ExecExample.c: In function ‘main’:
+../src/ExecExample.c:46:12: warning: implicit declaration of function ‘wait’ [-Wimplicit-function-declaration]
+   46 |    if((pid=wait(NULL))<0)
+      |            ^~~~
+Finished building: ../src/ExecExample.c
+ 
+Building target: 3 - ExecExample
+Invoking: GCC C Linker
+gcc -L/usr/local/lib -o "3 - ExecExample" ./src/ExecExample.o   -lso2016 -lm
+Finished building target: 3 - ExecExample
+ 
+
+13:53:04 Build Finished. 0 errors, 1 warnings. (took 991ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;3 - ExecExample/src/PassareParemtriAdUnProcesso.c&apos; to &apos;ExecExample.c&apos;" description="Rename resource &apos;PassareParemtriAdUnProcesso.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/PassareParemtriAdUnProcesso.c" name="ExecExample.c" stamp="1634915514747" updateReferences="true"/>
+</session>

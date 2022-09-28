@@ -1,0 +1,21 @@
+DESCRIZIONE
+       write()  scrive  fino a count byte dal buffer che inizia da buf nel file a cui
+       fa riferimento il descrittore di file fd.
+
+       Il numero di byte scritti potrebbe essere meno di count se, per  esempio,  non
+       c'è  spazio  sufficiente sul supporto fisico sottostante, o se si raggiunge il
+       limite della risorsa RLIMIT_FSIZE (vedere setrlimit(2)), o se  la  chiamata  è
+       stata  interrotta  da  un handler di segnale dopo che ha scritto meno di count
+       byte (vedere anche pipe(7)).
+
+       Per un file che si può spostare (cioè un file a cui si può applicare lseek(2),
+       per  esempio  un  file  regolare),  la scrittura viene eseguita all'offset del
+       file, e l'offset del file viene incrementato dal numero di byte effettivamente
+       scritti.  Se il file è stato aperto da open(2) con O_APPEND, l'offset del file
+       viene prima impostato alla fine  del  file,  e  poi  scritto.  La  regolazione
+       dell'offset  del  file  e  l'operazione  di  scrittura  vengono  eseguite come
+       un'operazione atomica.
+
+       POSIX richiede che una chiamata read(2)  avvenuta  dopo  l'esecuzione  di  una
+       chiamata  write()  restituisca i nuovi dati. Notare che non tutti i filesystem
+       sono conformi a POSIX.

@@ -1,0 +1,37 @@
+13:28:03 **** Incremental Build of configuration Debug for project 0 - libso2016 ****
+make all 
+Building file: ../src/resource.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/resource.d" -MT"src/resource.o" -o "src/resource.o" "../src/resource.c"
+../src/resource.c: In function ‘startCounting’:
+../src/resource.c:18:2: warning: ‘ftime’ is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+   18 |  ftime( &g_TStart);
+      |  ^~~~~
+In file included from ../src/ourhdr.h:10,
+                 from ../src/resource.c:8:
+/usr/include/x86_64-linux-gnu/sys/timeb.h:29:12: note: declared here
+   29 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+../src/resource.c: In function ‘stopCounting’:
+../src/resource.c:38:3: warning: ‘ftime’ is deprecated: Use gettimeofday or clock_gettime instead [-Wdeprecated-declarations]
+   38 |   ftime( &g_TStop);
+      |   ^~~~~
+In file included from ../src/ourhdr.h:10,
+                 from ../src/resource.c:8:
+/usr/include/x86_64-linux-gnu/sys/timeb.h:29:12: note: declared here
+   29 | extern int ftime (struct timeb *__timebuf)
+      |            ^~~~~
+Finished building: ../src/resource.c
+ 
+Building target: 0 - libso2016.a
+Invoking: GCC Archiver
+ar -r  "0 - libso2016.a" ./src/error.o ./src/resource.o   
+ar: creating 0 - libso2016.a
+Finished building target: 0 - libso2016.a
+ 
+mv libso2016.a /usr/local/lib; cp ../src/ourhdr.h /usr/local/include
+mv: cannot stat 'libso2016.a': No such file or directory
+ 
+
+13:28:04 Build Finished. 0 errors, 2 warnings. (took 1s.183ms)
+

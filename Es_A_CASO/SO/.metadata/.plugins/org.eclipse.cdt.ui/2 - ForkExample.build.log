@@ -1,0 +1,6 @@
+13:51:40 **** Incremental Build of configuration Debug for project 2 - ForkExample ****
+make all 
+make: Nothing to be done for 'all'.
+
+13:51:40 Build Finished. 0 errors, 0 warnings. (took 520ms)
+

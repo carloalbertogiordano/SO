@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExternalProjectImportWizard">
+		<item key="WizardProjectsImportPage.STORE_ARCHIVE_SELECTED" value="true"/>
+		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
+		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
+		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="/home/zindre/eclipse-workspace/SO/HelloWorld"/>
+		</list>
+		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
+			<item value="/home/zindre/Downloads/libos2018.zip"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+		<item key="NewWizardSelectionPage.STORE_SELECTED_ID" value="org.eclipse.cdt.ui.wizards.NewCWizard2"/>
+		<list key="NewWizardSelectionPage.STORE_EXPANDED_CATEGORIES_ID">
+			<item value="org.eclipse.cdt.ui.newCWizards"/>
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="0"/>
+		<item key="DIALOG_Y_ORIGIN" value="0"/>
+	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="SmartImportWizard">
+		<item key="SmartImportRootWizardPage.STORE_HIDE_ALREADY_OPEN" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_CLOSE_IMPORTED" value="false"/>
+		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
+		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
+		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="/media/zindre/EC9E-4EEF/Universita/Anno 2/Eclipse/SO/4 - PipeExample"/>
+			<item value="/media/zindre/EC9E-4EEF/Universita/Anno 2/Eclipse/SO/3 - ExecExample"/>
+			<item value="/media/zindre/EC9E-4EEF/Universita/Anno 2/Eclipse/SO/2 - ForkExample"/>
+			<item value="/media/zindre/EC9E-4EEF/Universita/Anno 2/Eclipse/SO/PassareParemetriAdUnProcesso2"/>
+			<item value="/media/zindre/EC9E-4EEF/Universita/Anno 2/Eclipse/SO/PassareParemetriAdUnProcesso"/>
+			<item value="/media/zindre/EC9E-4EEF/Universita/Anno 2/Eclipse/SO/ComeCreareUnProcesso"/>
+		</list>
+	</section>
+</section>

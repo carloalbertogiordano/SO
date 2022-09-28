@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ComeCreareUnProcesso/src/ComeCreareUnProcesso.c&apos; to &apos;ForkExample.c&apos;" description="Rename resource &apos;ComeCreareUnProcesso.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/ComeCreareUnProcesso.c" name="ForkExample.c" stamp="1634915280352" updateReferences="true"/>
+</session>

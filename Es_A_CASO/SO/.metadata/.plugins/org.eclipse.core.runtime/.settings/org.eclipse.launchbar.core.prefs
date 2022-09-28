@@ -1,0 +1,16 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=linux
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.o,org.eclipse.launchbar.core.descriptorType.default\:HelloWorld,org.eclipse.launchbar.core.descriptorType.default\:HelloWorld (1),org.eclipse.launchbar.core.descriptorType.default\:HelloWorld (2),org.eclipse.launchbar.core.descriptorType.default\:BOjour,org.eclipse.launchbar.core.descriptorType.default\:HelloWorld (3),org.eclipse.launchbar.core.descriptorType.default\:Bachmarking,org.eclipse.launchbar.core.descriptorType.default\:Benchmarking,org.eclipse.launchbar.core.descriptorType.default\:2 - ForkExample,org.eclipse.launchbar.core.descriptorType.default\:3 - ExecExample,org.eclipse.launchbar.core.descriptorType.default\:4 - PipeExample
+eclipse.preferences.version=1
+org.eclipse.launchbar.core.descriptorType.default\:2\ -\ ForkExample/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:3\ -\ ExecExample/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:4\ -\ PipeExample/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Benchmarking/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld\ (1)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld\ (1)/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld\ (2)/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.o/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld.o/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:HelloWorld/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

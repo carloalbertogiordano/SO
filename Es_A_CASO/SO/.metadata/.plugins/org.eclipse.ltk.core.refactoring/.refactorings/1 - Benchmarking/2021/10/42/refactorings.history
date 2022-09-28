@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Bachmarking/src/HelloWorld.c&apos; to &apos;Bechmarking.c&apos;" description="Rename resource &apos;HelloWorld.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/HelloWorld.c" name="Bechmarking.c" stamp="1634199993255" updateReferences="true"/>
+</session>
